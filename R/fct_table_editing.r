@@ -1,4 +1,4 @@
-create_clean_log_table <- function(table_in) {
+create_clean_log_table <- function(table_in, file_name) {
     table_out <- table_in %>%
         dplyr::select(
             !c("...1", "...3")
@@ -46,7 +46,8 @@ create_clean_log_table <- function(table_in) {
             multi_position = dplyr::case_when(
                 stringr::str_length(Position) >= 3 ~ 1,
                 TRUE ~ 0
-            )
+            ),
+            manager = stringr::str_split_1(file_name, "_")[1]
         )
     return(table_out)
 }
@@ -84,4 +85,7 @@ create_forwards_table <- function(table_in) {
 
 create_list_of_clean_logs <- function(file, folder) {
     file_path <- paste0(folder, "/", file)
+    first_tbl <- readr::read_csv(file_path, skip = 1)
+    clean_log <- create_clean_log_table(first_tbl, file)
+    return(clean_log)
 }
