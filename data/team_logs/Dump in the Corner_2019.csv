@@ -1,0 +1,93 @@
+Forwards/Defensemen,,,Offense,,,,,,,,
+,Name,,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK
+?,John Tavares,?,63,26,34,-8,24,21,197,32,31
+?,Jake Muzzin,?,50,6,17,11,32,0,98,96,103
+?,Steven Stamkos,?,57,28,37,14,22,19,175,69,38
+?,Jonathan Drouin,?,1,0,1,1,0,0,1,1,0
+?,Jake Guentzel,?,25,14,11,2,8,5,89,34,10
+?,Nikolaj Ehlers,?,65,24,30,14,30,5,187,33,28
+?,Brendan Gallagher,?,55,21,19,11,24,5,206,47,28
+?,Yanni Gourde,?,7,1,2,1,6,1,13,6,3
+?,Kris Letang,?,61,15,29,0,38,15,177,101,91
+?,Ryan Ellis,?,48,8,30,16,19,9,112,46,95
+?,Jeff Petry,?,68,11,27,-9,26,11,153,165,77
+?,Josh Anderson,?,2,0,0,-4,4,0,6,4,2
+?,Seth Jones,?,22,2,12,1,8,6,45,19,52
+?,Tyler Johnson,?,2,1,0,0,0,0,3,2,0
+?,James Neal,?,21,10,4,-11,6,8,52,19,5
+?,David Perron,?,6,3,2,-1,2,3,14,7,0
+?,Jaccob Slavin,?,2,0,0,0,2,0,5,0,2
+?,Adam Henrique,?,3,1,0,0,2,0,4,1,2
+?,Radko Gudas,?,9,0,4,3,2,0,10,22,17
+?,Brock Nelson,?,3,0,3,0,2,0,11,3,4
+?,Kasperi Kapanen,?,2,0,0,-1,0,0,1,7,0
+?,Bo Horvat,?,8,1,4,-8,2,3,22,6,8
+?,Anders Lee,?,4,0,1,2,2,0,7,9,5
+?,Ryan Reaves,?,5,0,1,0,2,0,4,24,2
+?,Zack Kassian,?,9,4,4,-3,15,0,19,28,1
+?,Zach Hyman,?,5,2,1,0,2,1,11,3,3
+?,Joonas Donskoi,?,6,1,0,-3,0,0,8,4,3
+?,Michal Kempny,?,3,0,0,-1,0,0,0,1,3
+?,Phillip Danault,?,1,0,1,0,0,1,2,2,0
+?,Andre Burakovsky,?,13,4,5,0,6,5,22,7,6
+?,Brian Dumoulin,?,3,0,1,3,0,0,3,3,2
+?,Roope Hintz,?,3,1,0,-1,2,0,4,4,2
+?,Nick Suzuki,?,2,0,0,-4,0,0,3,2,0
+?,Jake DeBrusk,?,11,2,5,3,4,0,26,5,1
+?,Brayden Point,?,46,16,29,26,6,9,98,14,20
+?,Ondrej Palat,?,1,0,0,0,0,0,4,5,0
+?,Morgan Rielly,?,19,0,7,4,4,2,55,20,32
+?,Jared Spurgeon,?,1,0,1,-1,0,1,2,0,5
+?,Cam Atkinson,?,10,4,1,1,2,1,29,2,5
+?,Brendan Lemieux,?,2,0,0,-2,5,0,3,7,3
+?,Ian Cole,?,1,0,0,0,0,0,2,1,1
+?,Max Domi,?,24,6,9,-1,15,3,61,11,4
+?,Jonathan Toews,?,4,1,2,-3,0,0,9,1,2
+?,Samuel Girard,?,6,0,3,-2,0,1,11,5,3
+?,Tony DeAngelo,?,3,0,3,4,2,0,5,6,2
+?,Noel Acciari,?,4,1,0,-1,0,0,3,8,11
+?,Reilly Smith,?,2,0,1,1,0,0,2,1,1
+?,Justin Faulk,?,4,0,0,-3,2,0,6,3,7
+?,Jared McCann,?,4,0,1,-2,0,0,6,6,2
+?,Joe Pavelski,?,7,1,2,3,2,0,9,8,9
+?,Ryan Dzingel,?,6,1,1,1,0,1,7,2,4
+?,Craig Smith,?,2,0,0,-1,0,0,5,7,2
+?,Esa Lindell,?,19,1,5,-1,2,2,25,31,40
+?,Rasmus Sandin,?,3,0,2,1,2,1,4,8,2
+?,Oliver Bjorkstrand,?,11,7,4,6,2,1,31,12,1
+?,Frank Vatrano,?,1,0,0,0,0,0,0,1,0
+?,Adam Fox,?,3,0,0,3,0,0,10,0,8
+?,Anthony Cirelli,?,1,0,0,0,0,0,4,1,0
+?,Jason Zucker,?,15,6,6,-1,2,3,36,18,3
+?,Kevin Fiala,?,2,0,0,-3,2,0,7,2,1
+?,Colton Parayko,?,14,3,5,5,4,0,44,21,17
+?,William Karlsson,?,3,1,1,1,0,0,8,1,2
+?,Mikael Backlund,?,6,2,5,0,0,1,20,9,0
+?,Alec Martinez,?,4,0,0,0,2,0,7,4,11
+?,Alex DeBrincat,?,5,2,3,3,2,2,20,0,1
+?,Zach Parise,?,3,1,2,-1,0,1,10,0,2
+?,Erik Cernak,?,1,0,0,0,2,0,2,6,2
+,Totals,,882,239,378,65,350,147,2235,1033,827
+Goaltenders,,,Offense,Goaltending,,,,,,,
+,Name,,GP*,W,GA*,GAA,SV*,SA*,SV%,SHO,
+?,Frederik Andersen,?,49,28,132,2.8,1373,1505,0.912,3,
+?,Devan Dubnyk,?,4,0,17,4.81,102,119,0.857,0,
+?,Mike Smith,?,1,1,5,5.01,27,32,0.844,0,
+?,James Reimer,?,1,0,4,4.12,17,21,0.81,0,
+?,Mikko Koskinen,?,12,5,29,2.67,314,343,0.915,1,
+?,Alex Stalock,?,1,0,4,4.01,17,21,0.81,0,
+?,Alexandar Georgiev,?,3,2,10,3.34,98,108,0.907,0,
+?,Sergei Bobrovsky,?,25,14,67,2.75,758,825,0.919,0,
+?,Pavel Francouz,?,1,1,1,1,37,38,0.974,0,
+?,Elvis Merzlikins,?,13,5,28,2.25,344,372,0.925,3,
+?,Anton Khudobin,?,2,0,4,2.04,55,59,0.932,0,
+,Totals,,112,56,301,2.81,3142,3443,0.913,7,
+Legends and Glossaries,,,,,,,,,,,
+Legend?,,,,,,,,,,,
+Stats?,,,,,,,,,,,
+Positions?,,,,,,,,,,,
+Advanced Stats Glossary?,,,,,,,,,,,
+The Fine Print,,,,,,,,,,,
+Projections Powered by Rotowire,,,,,,,,,,,
+All game times are shown in MDT.,,,,,,,,,,,
+* Non-scoring stats,,,,,,,,,,,
