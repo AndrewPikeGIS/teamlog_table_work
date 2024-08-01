@@ -1,4 +1,4 @@
-create_clean_log_table <- function(table_in, file_name) {
+create_clean_log_table_2023 <- function(table_in, file_name) {
     table_out <- table_in %>%
         dplyr::select(
             !c("...1", "...3")
@@ -47,10 +47,47 @@ create_clean_log_table <- function(table_in, file_name) {
                 stringr::str_length(Position) >= 3 ~ 1,
                 TRUE ~ 0
             ),
-            manager = stringr::str_split_1(file_name, "_")[1]
+            manager = stringr::str_split_1(file_name, "_")[1],
+            year = get_year_from_file(file_name),
+            Name = stringr::str_sub(Name, 1, stringr::str_length(Name)-3)
         )
     return(table_out)
 }
+
+get_year_from_file <- function(file_name){
+    year_w_ext = stringr::str_split_1(file_name, "_")[2]
+    year_str = stringr::str_remove_all(year_w_ext, ".csv")
+    return(year_str)
+}
+
+create_clean_log_table_pre2023 <- function(table_in, file_name) {
+    table_out <- table_in %>%
+        dplyr::select(
+            !c("...1", "...3")
+        ) %>%
+        dplyr::filter(
+            !(
+                Name %in% c(
+                    "Totals",
+                    "Player Note",
+                    "O",
+                    "No new player Notes",
+                    "IR-LT",
+                    "IR-NR",
+                    "NA",
+                    "Name",
+                    "New Player Note"
+                )
+            )
+        ) %>%
+        tidyr::drop_na(Name) %>%
+        dplyr::mutate(
+            manager = stringr::str_split_1(file_name, "_")[1],
+            year = get_year_from_file(file_name)
+        )
+    return(table_out)
+}
+
 
 create_goalie_table <- function(table_in) {
     goalies_table <- table_in %>%
@@ -85,7 +122,55 @@ create_forwards_table <- function(table_in) {
 
 create_list_of_clean_logs <- function(file, folder) {
     file_path <- paste0(folder, "/", file)
-    first_tbl <- readr::read_csv(file_path, skip = 1)
-    clean_log <- create_clean_log_table(first_tbl, file)
+    tbl_in <- readr::read_csv(file_path, skip = 1)
+    print(file_path)
+    if (stringr::str_detect(file_path, "2023" )[1]) {
+        clean_log <- create_clean_log_table_2023(tbl_in, file)
+    } else {
+        clean_log <- create_clean_log_table_pre2023(tbl_in, file)
+    }
     return(clean_log)
+}
+
+
+create_clean_positions <- function(file, folder){
+    file_path <- paste0(folder, "/", file)
+    tbl_in <- readr::read_csv(file_path)
+    clean_positions <- clean_position_table(tbl_in)
+
+    return(clean_positions)
+}
+
+clean_position_table<- function(table_in) {
+
+    if (c("PLAYER (TEAM)") %in% colnames(table_in)){
+        table_in <- table_in %>%
+            dplyr::rename(
+                "Name" = "PLAYER (TEAM)"
+            )
+    }
+
+    if (!c("Position", "POS.") %in% colnames(table_in)){
+        table_out <- table_in %>%
+            tidyr::separate_wider_delim(
+                .,
+                Name,
+                "(",
+                names = c("Name", "Team")
+            ) %>%
+            tidyr::separate_wider_delim(
+                .,
+                Team,
+                "-",
+                names = c("Team", "Position")
+            ) %>%
+            dplyr::mutate(
+                Team = stringr::str_trim(Team),
+                Position = stringr::str_trim(Position)
+            ) %>%
+            dplyr::mutate(
+                Position = stringr::str_remove(Position, ")")
+            )
+        return(table_out)
+    }
 }

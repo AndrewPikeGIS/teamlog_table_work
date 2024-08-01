@@ -1,63 +1,63 @@
-Forwards/Defensemen,,Offense,,,,,,,,
-,Name,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK
-?,Alex Killorn,5,1,2,1,6,0,13,7,1
-?,Josh Anderson,22,11,5,4,21,2,62,57,10
-?,Mark Scheifele,51,19,37,-10,12,17,112,28,36
-?,Mathew Barzal,50,12,24,12,42,7,121,20,13
-?,Kyle Connor,48,19,20,-7,8,12,140,14,18
-?,Brad Marchand,51,27,38,26,42,16,138,64,11
-?,Mark Stone,53,21,39,25,28,17,95,30,32
-?,Tom Wilson,46,13,19,2,86,8,82,101,24
-?,John Carlson,52,10,34,-6,12,15,128,52,69
-?,Seth Jones,54,5,21,-18,26,8,136,101,97
-?,Jacob Trouba,3,0,0,-2,2,0,9,10,3
-?,Jaccob Slavin,7,0,2,4,0,0,7,7,14
-?,Pierre-Luc Dubois,8,1,4,-1,4,0,11,12,6
-?,Aaron Ekblad,35,11,11,5,33,11,102,23,25
-?,Alexander Romanov,4,0,0,5,2,0,10,8,3
-?,Tyler Motte,1,2,0,2,0,0,6,1,2
-?,Carter Verhaeghe,5,3,1,0,2,0,9,2,1
-?,Denis Gurianov,9,1,3,-7,2,2,19,13,2
-?,David Krejci,5,0,6,3,0,2,9,3,3
-?,Alec Martinez,44,9,17,19,8,8,73,32,132
-?,Nick Ritchie,2,1,0,1,0,0,6,2,0
-?,Nino Niederreiter,6,2,2,2,0,1,16,4,1
-?,Dustin Brown,4,3,1,1,4,0,10,8,0
-?,Kevin Hayes,1,0,0,0,2,0,3,0,0
-?,Roope Hintz,1,0,0,0,0,0,2,1,0
-?,Miro Heiskanen,8,3,3,3,2,2,23,3,9
-?,Alex Tuch,4,3,0,4,2,0,10,2,4
-?,Vladimir Tarasenko,7,1,4,-6,0,2,16,7,5
-?,Josh Morrissey,21,2,5,-2,11,2,39,29,31
-?,Jakub Vrana,6,0,1,-3,2,0,8,3,1
-?,Joel Eriksson Ek,1,0,0,-1,0,0,4,2,1
-?,Jonathan Marchessault,23,8,11,10,6,3,77,19,5
-?,Wayne Simmonds,6,1,0,0,4,0,8,5,2
-?,Jason Robertson,20,7,12,5,8,4,59,16,3
-?,Eeli Tolvanen,4,2,1,-2,0,2,8,9,2
-?,Clayton Keller,1,0,0,-3,0,0,1,1,0
-?,Esa Lindell,6,0,2,7,0,0,6,19,17
-?,Jamie Oleksiak,16,3,3,-3,4,0,31,43,32
-?,Craig Smith,4,1,0,3,0,1,9,4,1
-?,Luke Kunin,2,1,0,0,0,0,6,6,1
-?,Tomas Hertl,1,0,0,-1,0,0,1,0,0
-?,Cal Clutterbuck,1,0,0,0,0,0,1,2,0
-?,Sam Bennett,1,1,1,1,12,1,3,1,0
-,Totals,699,204,329,73,393,143,1629,771,617
-Goaltenders,,Offense,Goaltending,,,,,,,
-,Name,GP*,W,GA*,GAA,SV*,SA*,SV%,SHO,
-?,Philipp Grubauer,36,27,73,2.06,831,904,0.919,6,
-?,Anton Khudobin,27,11,60,2.37,620,680,0.912,3,
-?,Jake Oettinger,4,1,9,2.46,92,101,0.911,0,
-?,Thomas Greiss,1,0,3,2.78,21,24,0.875,0,
-?,Mackenzie Blackwood,1,0,4,4.06,21,25,0.84,0,
-,Totals,69,39,149,2.24,1585,1734,0.914,9,
-Legends and Glossaries,,,,,,,,,,
-Legend?,,,,,,,,,,
-Stats?,,,,,,,,,,
-Positions?,,,,,,,,,,
-Advanced Stats Glossary?,,,,,,,,,,
-The Fine Print,,,,,,,,,,
-Projections Powered by Rotowire,,,,,,,,,,
-All game times are shown in MDT.,,,,,,,,,,
-* Non-scoring stats,,,,,,,,,,
+Forwards/Defensemen,,,Offense,,,,,,,,
+,Name,,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK
+?,Alex Killorn,,5,1,2,1,6,0,13,7,1
+?,Josh Anderson,,22,11,5,4,21,2,62,57,10
+?,Mark Scheifele,,51,19,37,-10,12,17,112,28,36
+?,Mathew Barzal,,50,12,24,12,42,7,121,20,13
+?,Kyle Connor,,48,19,20,-7,8,12,140,14,18
+?,Brad Marchand,,51,27,38,26,42,16,138,64,11
+?,Mark Stone,,53,21,39,25,28,17,95,30,32
+?,Tom Wilson,,46,13,19,2,86,8,82,101,24
+?,John Carlson,,52,10,34,-6,12,15,128,52,69
+?,Seth Jones,,54,5,21,-18,26,8,136,101,97
+?,Jacob Trouba,,3,0,0,-2,2,0,9,10,3
+?,Jaccob Slavin,,7,0,2,4,0,0,7,7,14
+?,Pierre-Luc Dubois,,8,1,4,-1,4,0,11,12,6
+?,Aaron Ekblad,,35,11,11,5,33,11,102,23,25
+?,Alexander Romanov,,4,0,0,5,2,0,10,8,3
+?,Tyler Motte,,1,2,0,2,0,0,6,1,2
+?,Carter Verhaeghe,,5,3,1,0,2,0,9,2,1
+?,Denis Gurianov,,9,1,3,-7,2,2,19,13,2
+?,David Krejci,,5,0,6,3,0,2,9,3,3
+?,Alec Martinez,,44,9,17,19,8,8,73,32,132
+?,Nick Ritchie,,2,1,0,1,0,0,6,2,0
+?,Nino Niederreiter,,6,2,2,2,0,1,16,4,1
+?,Dustin Brown,,4,3,1,1,4,0,10,8,0
+?,Kevin Hayes,,1,0,0,0,2,0,3,0,0
+?,Roope Hintz,,1,0,0,0,0,0,2,1,0
+?,Miro Heiskanen,,8,3,3,3,2,2,23,3,9
+?,Alex Tuch,,4,3,0,4,2,0,10,2,4
+?,Vladimir Tarasenko,,7,1,4,-6,0,2,16,7,5
+?,Josh Morrissey,,21,2,5,-2,11,2,39,29,31
+?,Jakub Vrana,,6,0,1,-3,2,0,8,3,1
+?,Joel Eriksson Ek,,1,0,0,-1,0,0,4,2,1
+?,Jonathan Marchessault,,23,8,11,10,6,3,77,19,5
+?,Wayne Simmonds,,6,1,0,0,4,0,8,5,2
+?,Jason Robertson,,20,7,12,5,8,4,59,16,3
+?,Eeli Tolvanen,,4,2,1,-2,0,2,8,9,2
+?,Clayton Keller,,1,0,0,-3,0,0,1,1,0
+?,Esa Lindell,,6,0,2,7,0,0,6,19,17
+?,Jamie Oleksiak,,16,3,3,-3,4,0,31,43,32
+?,Craig Smith,,4,1,0,3,0,1,9,4,1
+?,Luke Kunin,,2,1,0,0,0,0,6,6,1
+?,Tomas Hertl,,1,0,0,-1,0,0,1,0,0
+?,Cal Clutterbuck,,1,0,0,0,0,0,1,2,0
+?,Sam Bennett,,1,1,1,1,12,1,3,1,0
+,Totals,,699,204,329,73,393,143,1629,771,617
+Goaltenders,,,Offense,Goaltending,,,,,,,
+,Name,,GP*,W,GA*,GAA,SV*,SA*,SV%,SHO,
+?,Philipp Grubauer,,36,27,73,2.06,831,904,0.919,6,
+?,Anton Khudobin,,27,11,60,2.37,620,680,0.912,3,
+?,Jake Oettinger,,4,1,9,2.46,92,101,0.911,0,
+?,Thomas Greiss,,1,0,3,2.78,21,24,0.875,0,
+?,Mackenzie Blackwood,,1,0,4,4.06,21,25,0.84,0,
+,Totals,,69,39,149,2.24,1585,1734,0.914,9,
+Legends and Glossaries,,,,,,,,,,,
+Legend?,,,,,,,,,,,
+Stats?,,,,,,,,,,,
+Positions?,,,,,,,,,,,
+Advanced Stats Glossary?,,,,,,,,,,,
+The Fine Print,,,,,,,,,,,
+Projections Powered by Rotowire,,,,,,,,,,,
+All game times are shown in MDT.,,,,,,,,,,,
+* Non-scoring stats,,,,,,,,,,,
