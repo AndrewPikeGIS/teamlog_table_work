@@ -16,5 +16,6 @@ Imports:
     magrittr,
     pkgload,
     readr,
+    stringi,
     stringr,
     tidyr
