@@ -136,7 +136,7 @@ create_list_of_clean_logs <- function(file, folder) {
 create_clean_positions <- function(file, folder){
     file_path <- paste0(folder, "/", file)
     tbl_in <- readr::read_csv(file_path)
-    clean_positions <- clean_position_table(tbl_in)        
+    clean_positions <- clean_position_table(tbl_in)
     return(clean_positions)
 }
 
@@ -149,7 +149,28 @@ clean_position_table<- function(table_in) {
             )
     }
 
-    if (!any(c("Position", "POS.") %in% colnames(table_in))){
+    if (c("PLAYER") %in% colnames(table_in)){
+        table_in <- table_in %>%
+            dplyr::rename(
+                "Name" = "PLAYER"
+            )
+    }
+
+    if (c("Player") %in% colnames(table_in)){
+        table_in <- table_in %>%
+            dplyr::rename(
+                "Name" = "Player"
+            )
+    }
+
+    if (c("POS.") %in% colnames(table_in)){
+        table_in <- table_in %>%
+            dplyr::rename(
+                "Position" = "POS."
+            )
+    }
+
+    if (!any(c("Position") %in% colnames(table_in))){
         table_out <- table_in %>%
             tidyr::separate_wider_delim(
                 .,
@@ -180,5 +201,16 @@ clean_position_table<- function(table_in) {
                 year
             )
         return(table_out)
+    } else {
+        table_out <- table_in %>%
+            dplyr::mutate(
+                Position = stringr::str_replace_all(Position, "[/]", ",")
+            ) %>%
+            dplyr::select(
+                Name,
+                Position,
+                year
+            )
     }
+    return(table_out)
 }
