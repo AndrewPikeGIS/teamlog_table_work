@@ -53,6 +53,19 @@ all_players_w_pos <- dplyr::rows_update(
         by = c("Name", "year")
     )
 
+goalies_w_pos <- all_players_w_pos %>%
+    create_goalie_table()
+
+forwards_w_position <- all_players_w_pos %>%
+   create_forwards_table()
+
 players_wo_position <- all_players_w_pos %>%
     dplyr::filter(is.na(Position))
 
+
+forwards_w_position_clean <- forwards_w_position %>%
+    calc_position_fields()
+
+
+test_f <- goalies_w_pos %>%
+    dplyr::filter(dplyr::if_any(dplyr::everything(), is.na))

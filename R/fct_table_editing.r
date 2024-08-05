@@ -105,7 +105,30 @@ create_goalie_table <- function(table_in) {
             shutout = HIT
         ) %>%
         dplyr::select(
-            !c(BLK, center, lw, rw, defence, defence, multi_position)
+            !c(
+                BLK,
+                center,
+                lw,
+                rw,
+                defence,
+                GWG,
+                multi_position
+            )
+        ) %>%
+        dplyr::mutate(
+            saves = as.numeric(saves),
+            shots_against = as.numeric(shots_against),
+            sv_percent = as.numeric(sv_percent),
+            GAA = as.numeric(GAA),
+            gp = as.numeric(gp),
+            wins = as.numeric(wins)
+        ) %>%
+        dplyr::mutate(
+            sv_percent = saves/shots_against
+        ) %>%
+        dplyr::arrange(
+            year,
+            manager
         )
     return(goalies_table)
 }
@@ -115,7 +138,8 @@ create_forwards_table <- function(table_in) {
     forward_table <- table_in %>%
         dplyr::filter(
             Position != "G"
-        )
+        ) %>%
+        dplyr::arrange(year, manager)
     return(forward_table)
 }
 
@@ -212,5 +236,33 @@ clean_position_table<- function(table_in) {
                 year
             )
     }
+    return(table_out)
+}
+
+calc_position_fields <- function(table_in){
+    table_out <- table_in %>%
+        dplyr::mutate(
+            center = dplyr::case_when(
+                stringr::str_detect(Position, "C") ~ 1,
+                TRUE ~ 0
+            ),
+            lw = dplyr::case_when(
+                stringr::str_detect(Position, "LW") ~ 1,
+                TRUE ~ 0
+            ),
+            rw = dplyr::case_when(
+                stringr::str_detect(Position, "RW") ~ 1,
+                TRUE ~ 0
+            ),
+            defence = dplyr::case_when(
+                stringr::str_detect(Position, "D") ~ 1,
+                TRUE ~ 0
+            ),
+            multi_position = dplyr::case_when(
+                stringr::str_length(Position) >= 3 ~ 1,
+                TRUE ~ 0
+            )
+        )
+
     return(table_out)
 }
