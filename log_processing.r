@@ -63,9 +63,15 @@ players_wo_position <- all_players_w_pos %>%
     dplyr::filter(is.na(Position))
 
 
+
+
 forwards_w_position_clean <- forwards_w_position %>%
     calc_position_fields()
 
 
 test_f <- goalies_w_pos %>%
     dplyr::filter(dplyr::if_any(dplyr::everything(), is.na))
+
+
+readr::write_csv(forwards_w_position_clean, "output/forwards.csv")
+readr::write_csv(goalies_w_pos, "output/goalies.csv")
