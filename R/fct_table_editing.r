@@ -266,3 +266,42 @@ calc_position_fields <- function(table_in){
 
     return(table_out)
 }
+
+
+load_and_clean_player_stats <- function(file, folder){
+    file_path <- paste0(folder, "/", file)
+    table_in <- readr::read_csv(file_path, skip = 1) %>%
+        dplyr::select(
+            !c(
+                "Rk",
+                "...7",
+                "...12",
+                "...17",
+                "-9999"
+            ) 
+        ) %>%
+        dplyr::rename(
+            "avg_shft" = "Shift",
+            "games_played" = "GP",
+            "avg_toi_full" = "TOI...8",
+            "corsi_for_full" = "CF% Rel...9",
+            "goals_for_per_60_full" = "GF/60...10",
+            "goals_against_per_60_full" = "GA/60...11",
+            "avg_toi_pp" = "TOI...13",
+            "corsi_for_pp" = "CF% Rel...14",
+            "goals_for_per_60_pp" = "GF/60...15",
+            "goals_against_per_60_pp" = "GA/60...16",
+            "avg_toi_short" = "TOI...18",
+            "corsi_for_short" ="CF% Rel...19",
+            "goals_for_per_60_short" = "GF/60...20",
+            "goals_against_per_60_short" = "GA/60...21"
+        ) %>%
+        dplyr::mutate(
+            total_toi_full = games_played * avg_toi_full,
+            total_toi_pp = games_played * avg_toi_pp,
+            total_toi_short = games_played * avg_toi_short,
+            year = as.numeric(stringr::str_extract(file, "[[:digit:]]+"))
+        )
+
+    return(table_in)
+}
