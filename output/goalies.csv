@@ -1,4 +1,8 @@
 Name,gp,wins,GA,GAA,saves,shots_against,sv_percent,shutout,manager,year,Position
+Andrei Vasilevskiy,38,28,84,2.19,1145,1229,0.9316517493897477,6,Collin's Cool Team,2018,G
+Philipp Grubauer,30,15,68,2.52,792,860,0.9209302325581395,3,Collin's Cool Team,2018,G
+Cory Schneider,7,0,25,5.01,135,160,0.84375,0,Collin's Cool Team,2018,G
+Robin Lehner,20,10,40,2.12,526,566,0.9293286219081273,3,Collin's Cool Team,2018,G
 Pekka Rinne,49,24,117,2.51,1225,1342,0.912816691505216,3,Fuck Tom Wilson!,2018,G
 Ben Bishop,39,22,75,2.01,1071,1146,0.9345549738219895,6,Fuck Tom Wilson!,2018,G
 Juuse Saros,3,1,12,4.04,90,102,0.8823529411764706,0,Fuck Tom Wilson!,2018,G
@@ -60,6 +64,11 @@ Jacob Markstrom,2,1,7,3.5,67,74,0.9054054054054054,0,Sugar Kane,2018,G
 David Rittich,26,17,71,2.8,685,756,0.906084656084656,0,Sugar Kane,2018,G
 Mikko Koskinen,2,0,6,4.79,29,35,0.8285714285714286,0,Sugar Kane,2018,G
 Jaroslav Halak,6,5,12,1.99,178,190,0.9368421052631579,1,Sugar Kane,2018,G
+Carey Price,60,31,150,2.55,1627,1777,0.915588069780529,3,The Bearded One,2018,G
+Jonathan Quick,40,15,124,3.17,1037,1161,0.8931955211024979,2,The Bearded One,2018,G
+Jacob Markstrom,1,0,5,5.05,28,33,0.8484848484848485,0,The Bearded One,2018,G
+Robin Lehner,6,1,17,3.24,141,158,0.8924050632911392,0,The Bearded One,2018,G
+Antti Niemi,3,2,11,3.68,94,105,0.8952380952380953,0,The Bearded One,2018,G
 Jacob Markstrom,32,17,89,2.8,951,1040,0.9144230769230769,1,Big Dirty,2019,G
 Philipp Grubauer,28,16,66,2.42,779,845,0.9218934911242603,2,Big Dirty,2019,G
 Henrik Lundqvist,2,0,8,5.29,41,49,0.8367346938775511,0,Big Dirty,2019,G
@@ -333,6 +342,12 @@ Jonathan Quick,4,2,18,4.93,109,127,0.8582677165354331,0,HatTrick Swayzes,2022,G
 Casey DeSmith,1,1,2,2,31,33,0.9393939393939394,0,HatTrick Swayzes,2022,G
 Igor Shesterkin,55,35,137,2.48,1510,1647,0.9168184578020644,3,Mitchell's Russians,2022,G
 Alexandar Georgiev,62,40,155,2.51,1749,1904,0.9185924369747899,5,Mitchell's Russians,2022,G
+Jonathan Quick,23,8,75,3.4,570,645,0.8837209302325582,1,No Regretzkys,2022,G
+Frederik Andersen,28,17,68,2.51,620,688,0.9011627906976745,1,No Regretzkys,2022,G
+Jeremy Swayman,31,21,66,2.33,759,825,0.92,4,No Regretzkys,2022,G
+Antti Raanta,7,4,19,2.84,140,159,0.8805031446540881,1,No Regretzkys,2022,G
+Sergei Bobrovsky,2,1,7,3.6,48,55,0.8727272727272727,0,No Regretzkys,2022,G
+Jack Campbell,14,8,44,3.34,346,390,0.8871794871794871,0,No Regretzkys,2022,G
 Darcy Kuemper,34,11,99,3.11,836,935,0.8941176470588236,2,Sugar Kane,2022,G
 Ilya Sorokin,55,28,123,2.32,1529,1652,0.9255447941888619,6,Sugar Kane,2022,G
 Pavel Francouz,1,0,5,5.21,22,27,0.8148148148148148,0,Sugar Kane,2022,G
@@ -395,6 +410,19 @@ Justus Annunen,1,0,3,3.08,21,24,0.875,0,HatTrick Swayzes,2023,G
 Jesper Wallstedt,2,2,2,1.01,51,53,0.9622641509433962,1,HatTrick Swayzes,2023,G
 Dustin Wolf,1,1,2,1.92,20,22,0.9090909090909091,0,HatTrick Swayzes,2023,G
 Calvin Pickard,1,0,3,2.93,25,28,0.8928571428571429,0,HatTrick Swayzes,2023,G
+Adin Hill,35,19,89,2.71,891,980,0.9091836734693878,2,Mr. Andersson,2023,G
+Filip Gustavsson,7,2,30,4.89,203,233,0.871244635193133,1,Mr. Andersson,2023,G
+Joseph Woll,6,3,22,3.63,126,148,0.8513513513513513,0,Mr. Andersson,2023,G
+John Gibson,6,0,18,3.32,143,161,0.8881987577639752,0,Mr. Andersson,2023,G
+Alex Lyon,4,2,9,2.89,98,107,0.9158878504672897,0,Mr. Andersson,2023,G
+Connor Ingram,8,3,22,3.04,188,210,0.8952380952380953,2,Mr. Andersson,2023,G
+Jonathan Quick,1,0,4,4.36,24,28,0.8571428571428571,0,Mr. Andersson,2023,G
+Martin Jones,11,5,28,2.58,274,302,0.9072847682119205,1,Mr. Andersson,2023,G
+Casey DeSmith,1,0,4,4,21,25,0.84,0,Mr. Andersson,2023,G
+Scott Wedgewood,1,0,4,4.45,14,18,0.7777777777777778,0,Mr. Andersson,2023,G
+Antti Raanta,1,0,3,3.08,14,17,0.8235294117647058,0,Mr. Andersson,2023,G
+Charlie Lindgren,1,0,6,6.02,25,31,0.8064516129032258,0,Mr. Andersson,2023,G
+Ilya Samsonov,21,15,62,2.94,549,611,0.8985270049099836,1,Mr. Andersson,2023,G
 Alexandar Georgiev,59,37,172,3,1501,1673,0.8971906754333533,2,Snortin Laine’s Bustin Hymans,2023,G
 Igor Shesterkin,45,31,111,2.48,1204,1315,0.9155893536121673,4,Snortin Laine’s Bustin Hymans,2023,G
 Jonathan Quick,4,3,15,3.63,109,124,0.8790322580645161,0,Snortin Laine’s Bustin Hymans,2023,G

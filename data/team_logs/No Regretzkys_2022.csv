@@ -1,0 +1,30 @@
+Forwards/Defensemen,,,Offense,,,,,,,,
+,Name,,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK
+?,Timo Meier,?,78,40,26,-19,43,23,326,154,37
+?,Erik Karlsson,?,79,25,74,-27,36,27,205,32,88
+?,Jack Eichel,?,61,24,36,25,6,12,204,54,51
+?,Brayden Point,?,68,41,34,4,5,24,194,29,27
+?,Chris Kreider,?,73,35,16,19,24,15,214,111,22
+?,Zach Werenski,?,13,3,5,-6,0,2,41,5,24
+?,Cale Makar,?,59,17,47,15,30,29,174,62,77
+?,Anze Kopitar,?,63,24,35,13,2,16,135,55,66
+?,Rickard Rakell,?,37,13,9,4,4,8,117,58,22
+?,Kirill Kaprizov,?,59,33,34,5,31,28,226,54,21
+?,Matt Boldy,?,34,11,14,-1,20,12,96,29,9
+?,Miro Heiskanen,?,77,9,62,9,32,34,200,47,93
+?,Torey Krug,?,10,0,4,-12,4,1,19,8,11
+?,Brenden Dillon,?,64,2,17,-1,38,0,57,152,80
+?,Alexander Romanov,?,50,2,13,-4,33,0,65,138,66
+?,Adrian Kempe,?,34,20,12,17,31,9,115,47,12
+?,Seth Jarvis,?,2,0,1,1,0,1,4,2,3
+?,Blake Wheeler,?,37,6,18,-7,20,6,54,29,19
+,Totals,,898,305,457,35,359,247,2446,1066,728
+Goaltenders,,,Offense,Goaltending,,,,,,,
+,Name,,GP*,W,GA*,GAA,SV*,SA*,SV%,SHO,
+?,Jonathan Quick,?,23,8,75,3.4,570,645,0.884,1,
+?,Frederik Andersen,?,28,17,68,2.51,620,688,0.901,1,
+?,Jeremy Swayman,?,31,21,66,2.33,759,825,0.92,4,
+?,Antti Raanta,?,7,4,19,2.84,140,159,0.881,1,
+?,Sergei Bobrovsky,?,2,1,7,3.6,48,55,0.873,0,
+?,Jack Campbell,?,14,8,44,3.34,346,390,0.887,0,
+,Totals,,105,59,279,2.81,2483,2762,0.899,7,

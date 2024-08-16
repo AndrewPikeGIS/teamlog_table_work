@@ -1,4 +1,21 @@
 Name,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK,manager,year,Position,center,lw,rw,defence,multi_position,GWG
+Evgeny Kuznetsov,68,19,43,5,48,19,NA,42,18,Collin's Cool Team,2018,C,1,0,0,0,0,3
+Jake Gardiner,26,2,12,7,6,3,NA,25,26,Collin's Cool Team,2018,D,0,0,0,1,0,0
+Mathew Barzal,65,15,37,-5,32,15,NA,20,42,Collin's Cool Team,2018,C,1,0,0,0,0,3
+Clayton Keller,26,5,13,-13,10,9,NA,7,6,Collin's Cool Team,2018,"LW,RW",0,1,1,0,1,1
+Travis Konecny,12,1,3,1,8,0,NA,10,4,Collin's Cool Team,2018,RW,0,0,1,0,0,0
+Mikael Granlund,35,10,17,-3,10,12,NA,7,21,Collin's Cool Team,2018,"LW,RW",0,1,1,0,1,3
+Cam Atkinson,72,38,26,3,20,13,NA,23,25,Collin's Cool Team,2018,RW,0,0,1,0,0,8
+Roman Josi,76,15,40,11,42,12,NA,51,126,Collin's Cool Team,2018,D,0,0,0,1,0,4
+Dougie Hamilton,74,14,19,-1,48,6,NA,139,78,Collin's Cool Team,2018,D,0,0,0,1,0,1
+Erik Johnson,69,6,16,10,33,0,NA,105,112,Collin's Cool Team,2018,D,0,0,0,1,0,0
+Jake Muzzin,40,4,12,8,23,1,NA,93,70,Collin's Cool Team,2018,D,0,0,0,1,0,0
+Ryan Johansen,35,6,20,6,16,7,NA,39,12,Collin's Cool Team,2018,C,1,0,0,0,0,2
+Jonathan Huberdeau,75,23,59,-16,36,32,NA,48,43,Collin's Cool Team,2018,LW,0,1,0,0,0,4
+Nikita Kucherov,74,37,82,23,56,46,NA,41,26,Collin's Cool Team,2018,RW,0,0,1,0,0,7
+Colton Sissons,30,5,6,2,10,1,NA,43,21,Collin's Cool Team,2018,C,1,0,0,0,0,1
+Yanni Gourde,30,7,6,2,17,2,NA,37,13,Collin's Cool Team,2018,LW,0,1,0,0,0,0
+Zach Werenski,41,6,20,-5,6,7,NA,40,48,Collin's Cool Team,2018,D,0,0,0,1,0,1
 Timo Meier,71,28,30,13,49,8,NA,80,37,Fuck Tom Wilson!,2018,"LW,RW",0,1,1,0,1,2
 Joe Pavelski,70,37,26,-1,20,20,NA,65,58,Fuck Tom Wilson!,2018,"C,RW",1,0,1,0,1,6
 Charlie McAvoy,7,1,5,1,10,0,NA,9,14,Fuck Tom Wilson!,2018,D,0,0,0,1,0,0
@@ -337,6 +354,31 @@ Erik Karlsson,2,0,0,-2,0,0,NA,0,0,Sugar Kane,2018,D,0,0,0,1,0,0
 Milan Lucic,9,0,2,3,22,0,NA,27,5,Sugar Kane,2018,LW,0,1,0,0,0,0
 Nino Niederreiter,8,1,3,-7,2,0,NA,10,3,Sugar Kane,2018,"LW,RW",0,1,1,0,1,0
 Mikael Backlund,6,3,4,9,6,1,NA,2,2,Sugar Kane,2018,C,1,0,0,0,0,1
+T.J. Oshie,64,21,26,2,36,12,NA,128,52,The Bearded One,2018,RW,0,0,1,0,0,4
+Tomas Hertl,50,26,22,2,12,11,NA,35,41,The Bearded One,2018,"C,LW",1,1,0,0,1,4
+Erik Karlsson,50,3,42,6,20,20,NA,43,69,The Bearded One,2018,D,0,0,0,1,0,1
+Tyler Seguin,50,24,27,9,8,16,NA,50,30,The Bearded One,2018,C,1,0,0,0,0,5
+William Karlsson,54,14,22,1,14,7,NA,37,36,The Bearded One,2018,C,1,0,0,0,0,4
+Filip Forsberg,55,24,19,2,20,10,NA,87,27,The Bearded One,2018,LW,0,1,0,0,0,4
+Artemi Panarin,72,25,52,7,23,17,NA,12,17,The Bearded One,2018,LW,0,1,0,0,0,7
+Nino Niederreiter,4,0,1,-3,2,0,NA,7,0,The Bearded One,2018,"LW,RW",0,1,1,0,1,0
+Ryan Suter,76,7,39,-2,39,15,NA,69,106,The Bearded One,2018,D,0,0,0,1,0,2
+Mattias Ekholm,74,8,34,18,43,8,NA,64,101,The Bearded One,2018,D,0,0,0,1,0,3
+Jonathan Toews,48,23,26,6,24,14,NA,22,24,The Bearded One,2018,C,1,0,0,0,0,5
+Kyle Palmieri,61,24,21,-5,36,16,NA,82,29,The Bearded One,2018,RW,0,0,1,0,0,1
+Keith Yandle,6,1,6,2,4,1,NA,5,8,The Bearded One,2018,D,0,0,0,1,0,0
+Dylan Larkin,61,26,28,-12,55,12,NA,69,30,The Bearded One,2018,C,1,0,0,0,0,4
+Nick Foligno,30,8,7,8,11,1,NA,71,21,The Bearded One,2018,"LW,RW",0,1,1,0,1,2
+Hampus Lindholm,61,4,14,-12,42,4,NA,66,102,The Bearded One,2018,D,0,0,0,1,0,0
+Jamie Oleksiak,6,0,2,2,2,0,NA,16,5,The Bearded One,2018,D,0,0,0,1,0,0
+Justin Abdelkader,2,0,1,2,0,0,NA,2,2,The Bearded One,2018,"LW,RW",0,1,1,0,1,0
+Nathan MacKinnon,15,7,8,4,4,5,NA,13,7,The Bearded One,2018,C,1,0,0,0,0,3
+Auston Matthews,15,7,6,-5,6,3,NA,14,16,The Bearded One,2018,C,1,0,0,0,0,1
+Jake Gardiner,2,0,1,0,0,0,NA,4,2,The Bearded One,2018,D,0,0,0,1,0,0
+Leo Komarov,11,0,4,-2,4,0,NA,33,8,The Bearded One,2018,C,1,0,0,0,0,0
+Nazem Kadri,3,0,0,-1,0,0,NA,7,1,The Bearded One,2018,C,1,0,0,0,0,0
+Jared Spurgeon,6,2,1,-6,0,3,NA,11,11,The Bearded One,2018,D,0,0,0,1,0,0
+Erik Gudbranson,4,0,0,0,0,0,NA,8,4,The Bearded One,2018,D,0,0,0,1,0,0
 Leon Draisaitl,69,43,65,-7,18,43,213,26,16,Big Dirty,2019,"C,LW",1,1,0,0,1,NA
 William Karlsson,27,8,13,3,12,3,57,18,21,Big Dirty,2019,C,1,0,0,0,0,NA
 Alex Pietrangelo,70,16,36,11,20,22,225,47,89,Big Dirty,2019,D,0,0,0,1,0,NA
@@ -1732,6 +1774,24 @@ Jake DeBrusk,14,6,5,5,2,3,35,23,5,Mitchell's Russians,2022,"LW,RW",0,1,1,0,1,NA
 Filip Hronek,46,5,20,-2,22,11,84,77,43,Mitchell's Russians,2022,D,0,0,0,1,0,NA
 Brandon Hagel,38,14,13,15,28,3,92,37,25,Mitchell's Russians,2022,"LW,RW",0,1,1,0,1,NA
 Jamie Benn,27,12,14,1,10,9,64,29,11,Mitchell's Russians,2022,"C,LW",1,1,0,0,1,NA
+Timo Meier,78,40,26,-19,43,23,326,154,37,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Erik Karlsson,79,25,74,-27,36,27,205,32,88,No Regretzkys,2022,D,0,0,0,1,0,NA
+Jack Eichel,61,24,36,25,6,12,204,54,51,No Regretzkys,2022,C,1,0,0,0,0,NA
+Brayden Point,68,41,34,4,5,24,194,29,27,No Regretzkys,2022,C,1,0,0,0,0,NA
+Chris Kreider,73,35,16,19,24,15,214,111,22,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Zach Werenski,13,3,5,-6,0,2,41,5,24,No Regretzkys,2022,D,0,0,0,1,0,NA
+Cale Makar,59,17,47,15,30,29,174,62,77,No Regretzkys,2022,D,0,0,0,1,0,NA
+Anze Kopitar,63,24,35,13,2,16,135,55,66,No Regretzkys,2022,C,1,0,0,0,0,NA
+Rickard Rakell,37,13,9,4,4,8,117,58,22,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Kirill Kaprizov,59,33,34,5,31,28,226,54,21,No Regretzkys,2022,LW,0,1,0,0,0,NA
+Matt Boldy,34,11,14,-1,20,12,96,29,9,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Miro Heiskanen,77,9,62,9,32,34,200,47,93,No Regretzkys,2022,D,0,0,0,1,0,NA
+Torey Krug,10,0,4,-12,4,1,19,8,11,No Regretzkys,2022,D,0,0,0,1,0,NA
+Brenden Dillon,64,2,17,-1,38,0,57,152,80,No Regretzkys,2022,D,0,0,0,1,0,NA
+Alexander Romanov,50,2,13,-4,33,0,65,138,66,No Regretzkys,2022,D,0,0,0,1,0,NA
+Adrian Kempe,34,20,12,17,31,9,115,47,12,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Seth Jarvis,2,0,1,1,0,1,4,2,3,No Regretzkys,2022,"LW,RW",0,1,1,0,1,NA
+Blake Wheeler,37,6,18,-7,20,6,54,29,19,No Regretzkys,2022,RW,0,0,1,0,0,NA
 Jacob Trouba,80,8,22,7,61,5,190,213,193,Sugar Kane,2022,D,0,0,0,1,0,NA
 Auston Matthews,73,40,45,31,20,28,324,75,90,Sugar Kane,2022,C,1,0,0,0,0,NA
 Patrik Laine,7,2,2,-2,4,1,27,8,5,Sugar Kane,2022,"LW,RW",0,1,1,0,1,NA
@@ -1958,6 +2018,46 @@ Bryan Rust,9,4,6,1,2,2,32,4,12,HatTrick Swayzes,2023,RW,0,0,1,0,0,NA
 Jacob Trouba,7,0,0,0,21,0,8,20,9,HatTrick Swayzes,2023,D,0,0,0,1,0,NA
 Alex Tuch,6,2,3,2,4,1,19,5,7,HatTrick Swayzes,2023,RW,0,0,1,0,0,NA
 Tomas Hertl,5,2,1,-1,0,1,10,8,3,HatTrick Swayzes,2023,C,1,0,0,0,0,NA
+Mikhail Sergachev?,34,2,17,-16,16,7,53,31,70,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Alex Pietrangelo,62,4,28,-5,24,9,139,39,159,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Shea Theodore,19,3,11,2,0,7,50,4,25,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Nathan MacKinnon?,81,51,88,35,42,47,402,46,69,Mr. Andersson,2023,C,1,0,0,0,0,NA
+Elias Lindholm,20,5,8,-5,6,4,49,14,10,Mr. Andersson,2023,C,1,0,0,0,0,NA
+Brady Tkachuk?,80,37,37,1,132,22,350,264,33,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Tyler Bertuzzi,5,1,0,2,10,1,11,6,3,Mr. Andersson,2023,LW,0,1,0,0,0,NA
+Zach Hyman,76,52,23,40,48,19,277,72,36,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Rasmus Andersson,74,8,28,-13,37,8,149,33,177,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Jack Hughes?,60,26,47,-10,12,31,261,8,23,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Matt Boldy?,10,1,7,-3,8,2,29,1,3,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Jordan Kyrou,7,0,2,-6,2,1,22,4,5,Mr. Andersson,2023,"C,RW",1,0,1,0,1,NA
+Gustav Forsling,3,0,0,1,2,0,4,2,3,Mr. Andersson,2023,"C,RW",1,0,1,0,1,NA
+Clayton Keller,65,24,32,-30,26,25,192,16,28,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Sean Durzi,37,7,14,8,35,9,62,16,79,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Brady Skjei,5,0,1,0,2,0,5,5,5,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Frank Vatrano,47,19,17,-20,43,13,153,57,39,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Filip Forsberg,73,46,39,17,35,27,308,109,41,Mr. Andersson,2023,LW,0,1,0,0,0,NA
+Ivan Barbashev,3,1,0,1,2,0,5,6,2,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Evan Rodrigues,5,0,0,0,0,0,15,7,3,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Lawson Crouse,6,1,0,1,2,0,11,10,6,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Drake Batherson,55,19,23,-4,28,12,131,59,23,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Trevor Moore,1,0,0,0,0,0,3,2,1,Mr. Andersson,2023,LW,0,1,0,0,0,NA
+Josh Manson,53,7,14,13,55,0,90,139,73,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Neal Pionk,53,4,19,0,43,6,96,143,79,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Brock Nelson,1,0,0,-1,0,0,4,0,0,Mr. Andersson,2023,C,1,0,0,0,0,NA
+Gabriel Vilardi,13,5,2,8,2,2,28,3,9,Mr. Andersson,2023,LW,0,1,0,0,0,NA
+Joel Farabee,7,4,3,-2,0,3,21,5,4,Mr. Andersson,2023,LW,0,1,0,0,0,NA
+Charlie Coyle,4,2,4,5,2,1,7,5,2,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Robert Thomas,20,7,13,2,12,9,40,3,9,Mr. Andersson,2023,"C,RW",1,0,1,0,1,NA
+Bryan Rust,4,3,2,-2,4,3,12,3,0,Mr. Andersson,2023,RW,0,0,1,0,0,NA
+Vince Dunn,9,3,4,6,26,2,16,5,12,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Tom Wilson?,11,4,4,-5,30,4,20,31,16,Mr. Andersson,2023,RW,0,0,1,0,0,NA
+Jake Neighbours,6,2,1,-2,2,1,11,13,2,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
+Pavel Zacha,1,0,1,0,0,0,2,4,0,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Luke Hughes,9,0,7,-7,2,3,16,3,9,Mr. Andersson,2023,D,0,0,0,1,0,NA
+William Karlsson,4,2,2,0,0,0,10,6,2,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
+Evgeni Malkin,5,2,3,-1,4,2,16,3,4,Mr. Andersson,2023,C,1,0,0,0,0,NA
+Filip Hronek,4,0,0,0,2,0,4,8,7,Mr. Andersson,2023,D,0,0,0,1,0,NA
+Andrei Kuzmenko,3,1,2,2,0,1,7,0,1,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
 Jared McCann,15,5,2,-6,8,2,45,6,8,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
 Brandon Hage,29,6,16,-2,21,3,63,14,22,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
 Nikita Kuchero,76,43,89,3,20,52,298,37,34,Snortin Laine’s Bustin Hymans,2023,RW,0,0,1,0,0,NA

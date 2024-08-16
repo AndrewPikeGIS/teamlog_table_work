@@ -1,0 +1,36 @@
+Forwards/Defensemen,,,Offense,,,,,,,,
+,Name,,GP*,G,A,+/-,PIM,PPP,GWG,HIT,BLK
+?,T.J. Oshie,?,64,21,26,2,36,12,4,128,52
+?,Tomas Hertl,?,50,26,22,2,12,11,4,35,41
+?,Erik Karlsson,?,50,3,42,6,20,20,1,43,69
+?,Tyler Seguin,?,50,24,27,9,8,16,5,50,30
+?,William Karlsson,?,54,14,22,1,14,7,4,37,36
+?,Filip Forsberg,?,55,24,19,2,20,10,4,87,27
+?,Artemi Panarin,?,72,25,52,7,23,17,7,12,17
+?,Nino Niederreiter,?,4,0,1,-3,2,0,0,7,0
+?,Ryan Suter,?,76,7,39,-2,39,15,2,69,106
+?,Mattias Ekholm,?,74,8,34,18,43,8,3,64,101
+?,Jonathan Toews,?,48,23,26,6,24,14,5,22,24
+?,Kyle Palmieri,?,61,24,21,-5,36,16,1,82,29
+?,Keith Yandle,?,6,1,6,2,4,1,0,5,8
+?,Dylan Larkin,?,61,26,28,-12,55,12,4,69,30
+?,Nick Foligno,?,30,8,7,8,11,1,2,71,21
+?,Hampus Lindholm,?,61,4,14,-12,42,4,0,66,102
+?,Jamie Oleksiak,?,6,0,2,2,2,0,0,16,5
+?,Justin Abdelkader,?,2,0,1,2,0,0,0,2,2
+?,Nathan MacKinnon,?,15,7,8,4,4,5,3,13,7
+?,Auston Matthews,?,15,7,6,-5,6,3,1,14,16
+?,Jake Gardiner,?,2,0,1,0,0,0,0,4,2
+?,Leo Komarov,?,11,0,4,-2,4,0,0,33,8
+?,Nazem Kadri,?,3,0,0,-1,0,0,0,7,1
+?,Jared Spurgeon,?,6,2,1,-6,0,3,0,11,11
+?,Erik Gudbranson,?,4,0,0,0,0,0,0,8,4
+,Totals,,880,254,409,23,405,175,50,955,749
+Goaltenders,,,Offense,Goaltending,,,,,,,
+,Name,,GP*,W,GA*,GAA,SV*,SA*,SV%,SHO,
+?,Carey Price,?,60,31,150,2.55,1627,1777,0.916,3,
+?,Jonathan Quick,?,40,15,124,3.17,1037,1161,0.893,2,
+?,Jacob Markstrom,?,1,0,5,5.05,28,33,0.848,0,
+?,Robin Lehner,?,6,1,17,3.24,141,158,0.892,0,
+?,Antti Niemi,?,3,2,11,3.68,94,105,0.895,0,
+,Totals,,110,49,307,2.87,2927,3234,0.905,5,

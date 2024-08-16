@@ -49,14 +49,51 @@ create_clean_log_table_2023 <- function(table_in, file_name) {
             ),
             manager = stringr::str_split_1(file_name, "_")[1],
             year = get_year_from_file(file_name),
-            Name = stringr::str_sub(Name, 1, stringr::str_length(Name)-3)
+            Name = stringr::str_sub(Name, 1, stringr::str_length(Name) - 3)
         )
     return(table_out)
 }
 
-get_year_from_file <- function(file_name){
-    year_w_ext = stringr::str_split_1(file_name, "_")[2]
-    year_str = stringr::str_remove_all(year_w_ext, ".csv")
+create_clean_log_mr_andersson <- function(tbl, file_name) {
+    table_out <- tbl %>%
+        dplyr::select(
+            !c("...1")
+        ) %>%
+        dplyr::filter(!Name %in% c(
+            "Totals",
+            "Name"
+        )) %>%
+        tidyr::drop_na(Name) %>%
+        dplyr::mutate(
+            center = dplyr::case_when(
+                stringr::str_detect(Position, "C") ~ 1,
+                TRUE ~ 0
+            ),
+            lw = dplyr::case_when(
+                stringr::str_detect(Position, "LW") ~ 1,
+                TRUE ~ 0
+            ),
+            rw = dplyr::case_when(
+                stringr::str_detect(Position, "RW") ~ 1,
+                TRUE ~ 0
+            ),
+            defence = dplyr::case_when(
+                stringr::str_detect(Position, "D") ~ 1,
+                TRUE ~ 0
+            ),
+            multi_position = dplyr::case_when(
+                stringr::str_length(Position) >= 3 ~ 1,
+                TRUE ~ 0
+            ),
+            manager = stringr::str_split_1(file_name, "_")[1],
+            year = get_year_from_file(file_name)
+        )
+    return(table_out)
+}
+
+get_year_from_file <- function(file_name) {
+    year_w_ext <- stringr::str_split_1(file_name, "_")[2]
+    year_str <- stringr::str_remove_all(year_w_ext, ".csv")
     return(year_str)
 }
 
@@ -124,7 +161,7 @@ create_goalie_table <- function(table_in) {
             wins = as.numeric(wins)
         ) %>%
         dplyr::mutate(
-            sv_percent = saves/shots_against
+            sv_percent = saves / shots_against
         ) %>%
         dplyr::arrange(
             year,
@@ -148,53 +185,62 @@ create_list_of_clean_logs <- function(file, folder) {
     file_path <- paste0(folder, "/", file)
     tbl_in <- readr::read_csv(file_path, skip = 1)
     print(file_path)
-    if (stringr::str_detect(file_path, "2023" )[1]) {
+    if (
+        all(
+            stringr::str_detect(file_path, "2023")[1],
+            !(stringr::str_detect(file_path, "Andersson"))
+        )
+    ) {
+        print("2023")
         clean_log <- create_clean_log_table_2023(tbl_in, file)
+    } else if (stringr::str_detect(file_path, "Mr. Andersson_2023")) {
+        print("MR. ANDERSSON")
+        clean_log <- create_clean_log_mr_andersson(tbl_in, file)
     } else {
+        print("Pre 2023")
         clean_log <- create_clean_log_table_pre2023(tbl_in, file)
     }
     return(clean_log)
 }
 
 
-create_clean_positions <- function(file, folder){
+create_clean_positions <- function(file, folder) {
     file_path <- paste0(folder, "/", file)
     tbl_in <- readr::read_csv(file_path)
     clean_positions <- clean_position_table(tbl_in)
     return(clean_positions)
 }
 
-clean_position_table<- function(table_in) {
-
-    if (c("PLAYER (TEAM)") %in% colnames(table_in)){
+clean_position_table <- function(table_in) {
+    if (c("PLAYER (TEAM)") %in% colnames(table_in)) {
         table_in <- table_in %>%
             dplyr::rename(
                 "Name" = "PLAYER (TEAM)"
             )
     }
 
-    if (c("PLAYER") %in% colnames(table_in)){
+    if (c("PLAYER") %in% colnames(table_in)) {
         table_in <- table_in %>%
             dplyr::rename(
                 "Name" = "PLAYER"
             )
     }
 
-    if (c("Player") %in% colnames(table_in)){
+    if (c("Player") %in% colnames(table_in)) {
         table_in <- table_in %>%
             dplyr::rename(
                 "Name" = "Player"
             )
     }
 
-    if (c("POS.") %in% colnames(table_in)){
+    if (c("POS.") %in% colnames(table_in)) {
         table_in <- table_in %>%
             dplyr::rename(
                 "Position" = "POS."
             )
     }
 
-    if (!any(c("Position") %in% colnames(table_in))){
+    if (!any(c("Position") %in% colnames(table_in))) {
         table_out <- table_in %>%
             tidyr::separate_wider_delim(
                 .,
@@ -239,7 +285,7 @@ clean_position_table<- function(table_in) {
     return(table_out)
 }
 
-calc_position_fields <- function(table_in){
+calc_position_fields <- function(table_in) {
     table_out <- table_in %>%
         dplyr::mutate(
             center = dplyr::case_when(
@@ -268,7 +314,7 @@ calc_position_fields <- function(table_in){
 }
 
 
-load_and_clean_player_stats <- function(file, folder){
+load_and_clean_player_stats <- function(file, folder) {
     file_path <- paste0(folder, "/", file)
     table_in <- readr::read_csv(file_path, skip = 1) %>%
         dplyr::select(
@@ -278,7 +324,7 @@ load_and_clean_player_stats <- function(file, folder){
                 "...12",
                 "...17",
                 "-9999"
-            ) 
+            )
         ) %>%
         dplyr::rename(
             "avg_shft" = "Shift",
@@ -292,7 +338,7 @@ load_and_clean_player_stats <- function(file, folder){
             "goals_for_per_60_pp" = "GF/60...15",
             "goals_against_per_60_pp" = "GA/60...16",
             "avg_toi_short" = "TOI...18",
-            "corsi_for_short" ="CF% Rel...19",
+            "corsi_for_short" = "CF% Rel...19",
             "goals_for_per_60_short" = "GF/60...20",
             "goals_against_per_60_short" = "GA/60...21"
         ) %>%

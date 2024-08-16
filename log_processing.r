@@ -1,8 +1,8 @@
 pkgload::load_all()
 
-position_log_folder <- 'data/player_elligibility'
+position_log_folder <- "data/player_elligibility"
 log_folder <- "data/team_logs"
-position_exc <- 'data/position_exceptions.csv'
+position_exc <- "data/position_exceptions.csv"
 
 position_exc_tbl <- readr::read_csv(position_exc) %>%
     dplyr::distinct()
@@ -21,7 +21,7 @@ all_players <- dplyr::bind_rows(list_clean_log) %>%
         year = as.double(year)
     )
 
-#add positionality to all players by year.
+# add positionality to all players by year.
 
 clean_player_position <- lapply(
     position_file_list,
@@ -57,7 +57,7 @@ goalies_w_pos <- all_players_w_pos %>%
     create_goalie_table()
 
 forwards_w_position <- all_players_w_pos %>%
-   create_forwards_table()
+    create_forwards_table()
 
 players_wo_position <- all_players_w_pos %>%
     dplyr::filter(is.na(Position))
@@ -69,7 +69,7 @@ forwards_w_position_clean <- forwards_w_position %>%
     calc_position_fields()
 
 
-test_f <- goalies_w_pos %>%
+test_f <- forwards_w_position_clean %>%
     dplyr::filter(dplyr::if_any(dplyr::everything(), is.na))
 
 
