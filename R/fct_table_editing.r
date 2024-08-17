@@ -97,6 +97,37 @@ get_year_from_file <- function(file_name) {
     return(year_str)
 }
 
+load_and_clean_nhl_standings <- function(folder) {
+    file_list <- list.files(folder)
+    list_clean_tables <- lapply(
+        file_list,
+        read_clean_standings_tbl,
+        folder = folder
+    )
+    final_table <- dplyr::bind_rows(list_clean_tables)
+
+    return(final_table)
+}
+
+read_clean_standings_tbl <- function(file_in, folder) {
+    table_path <- paste0(folder, "/", file_in)
+    tbl <- readr::read_csv(table_path) %>%
+        dplyr::mutate(
+            year = get_year_for_standings(file_in)
+        ) %>%
+        dplyr::rename(
+            "team" = "...2"
+        )
+
+    return(tbl)
+}
+
+get_year_for_standings <- function(file_name) {
+    year <- stringr::str_remove_all(file_name, "nhl_standings_")
+    year_out <- stringr::str_remove_all(year, ".csv")
+    return(year_out)
+}
+
 create_clean_log_table_pre2023 <- function(table_in, file_name) {
     table_out <- table_in %>%
         dplyr::select(
