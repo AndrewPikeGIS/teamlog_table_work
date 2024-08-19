@@ -63,8 +63,6 @@ players_wo_position <- all_players_w_pos %>%
     dplyr::filter(is.na(Position))
 
 
-
-
 forwards_w_position_clean <- forwards_w_position %>%
     calc_position_fields()
 

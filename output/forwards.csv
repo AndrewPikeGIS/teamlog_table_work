@@ -1,4 +1,4 @@
-Name,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK,manager,year,Position,center,lw,rw,defence,multi_position,GWG
+Name,GP*,G,A,+/-,PIM,PPP,SOG,HIT,BLK,Team,year,Position,center,lw,rw,defence,multi_position,GWG
 Evgeny Kuznetsov,68,19,43,5,48,19,NA,42,18,Collin's Cool Team,2018,C,1,0,0,0,0,3
 Jake Gardiner,26,2,12,7,6,3,NA,25,26,Collin's Cool Team,2018,D,0,0,0,1,0,0
 Mathew Barzal,65,15,37,-5,32,15,NA,20,42,Collin's Cool Team,2018,C,1,0,0,0,0,3
@@ -469,26 +469,26 @@ Alec Martinez,4,0,0,0,2,0,7,4,11,Dump in the Corner,2019,D,0,0,0,1,0,NA
 Alex DeBrincat,5,2,3,3,2,2,20,0,1,Dump in the Corner,2019,"LW,RW",0,1,1,0,1,NA
 Zach Parise,3,1,2,-1,0,1,10,0,2,Dump in the Corner,2019,LW,0,1,0,0,0,NA
 Erik Cernak,1,0,0,0,2,0,2,6,2,Dump in the Corner,2019,D,0,0,0,1,0,NA
-Brayden Schenn,66,23,28,3,42,18,133,109,21,Go Home I’m drinkin,2019,"C,LW",1,1,0,0,1,NA
-Shea Theodore,69,13,31,12,23,15,216,20,68,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Sebastian Aho,63,34,26,7,24,16,190,46,17,Go Home I’m drinkin,2019,C,1,0,0,0,0,NA
-Johnny Gaudreau,61,17,35,-9,12,17,192,1,11,Go Home I’m drinkin,2019,LW,0,1,0,0,0,NA
-Nino Niederreiter,15,2,5,-6,12,2,29,12,6,Go Home I’m drinkin,2019,"LW,RW",0,1,1,0,1,NA
-David Pastrnak,66,44,46,17,38,38,258,44,20,Go Home I’m drinkin,2019,RW,0,0,1,0,0,NA
-Patric Hornqvist,14,4,5,3,6,2,37,30,12,Go Home I’m drinkin,2019,RW,0,0,1,0,0,NA
-Rasmus Ristolainen,69,6,27,-2,46,9,128,203,82,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Mattias Ekholm,58,8,22,7,28,4,129,41,83,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Mathew Barzal,58,16,31,0,42,8,148,19,38,Go Home I’m drinkin,2019,C,1,0,0,0,0,NA
-Jakub Voracek,4,2,1,-3,2,2,13,1,1,Go Home I’m drinkin,2019,"LW,RW",0,1,1,0,1,NA
-Ryan Pulock,67,10,25,8,14,8,160,108,135,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Shayne Gostisbehere,2,0,0,1,2,0,2,1,1,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Filip Forsberg,57,20,23,-5,27,14,170,74,24,Go Home I’m drinkin,2019,LW,0,1,0,0,0,NA
-Neal Pionk,18,0,7,3,4,4,37,37,17,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Brock Boeser,34,10,11,4,12,5,109,18,8,Go Home I’m drinkin,2019,RW,0,0,1,0,0,NA
-David Perron,54,18,25,2,34,20,121,47,18,Go Home I’m drinkin,2019,"LW,RW",0,1,1,0,1,NA
-Ryan Reaves,11,1,1,1,8,0,9,48,3,Go Home I’m drinkin,2019,RW,0,0,1,0,0,NA
-Quinn Hughes,31,3,20,-10,14,10,56,3,22,Go Home I’m drinkin,2019,D,0,0,0,1,0,NA
-Josh Bailey,11,3,3,-2,0,0,12,2,6,Go Home I’m drinkin,2019,RW,0,0,1,0,0,NA
+Brayden Schenn,66,23,28,3,42,18,133,109,21,Go Home I'm drinkin,2019,"C,LW",1,1,0,0,1,NA
+Shea Theodore,69,13,31,12,23,15,216,20,68,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Sebastian Aho,63,34,26,7,24,16,190,46,17,Go Home I'm drinkin,2019,C,1,0,0,0,0,NA
+Johnny Gaudreau,61,17,35,-9,12,17,192,1,11,Go Home I'm drinkin,2019,LW,0,1,0,0,0,NA
+Nino Niederreiter,15,2,5,-6,12,2,29,12,6,Go Home I'm drinkin,2019,"LW,RW",0,1,1,0,1,NA
+David Pastrnak,66,44,46,17,38,38,258,44,20,Go Home I'm drinkin,2019,RW,0,0,1,0,0,NA
+Patric Hornqvist,14,4,5,3,6,2,37,30,12,Go Home I'm drinkin,2019,RW,0,0,1,0,0,NA
+Rasmus Ristolainen,69,6,27,-2,46,9,128,203,82,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Mattias Ekholm,58,8,22,7,28,4,129,41,83,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Mathew Barzal,58,16,31,0,42,8,148,19,38,Go Home I'm drinkin,2019,C,1,0,0,0,0,NA
+Jakub Voracek,4,2,1,-3,2,2,13,1,1,Go Home I'm drinkin,2019,"LW,RW",0,1,1,0,1,NA
+Ryan Pulock,67,10,25,8,14,8,160,108,135,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Shayne Gostisbehere,2,0,0,1,2,0,2,1,1,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Filip Forsberg,57,20,23,-5,27,14,170,74,24,Go Home I'm drinkin,2019,LW,0,1,0,0,0,NA
+Neal Pionk,18,0,7,3,4,4,37,37,17,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Brock Boeser,34,10,11,4,12,5,109,18,8,Go Home I'm drinkin,2019,RW,0,0,1,0,0,NA
+David Perron,54,18,25,2,34,20,121,47,18,Go Home I'm drinkin,2019,"LW,RW",0,1,1,0,1,NA
+Ryan Reaves,11,1,1,1,8,0,9,48,3,Go Home I'm drinkin,2019,RW,0,0,1,0,0,NA
+Quinn Hughes,31,3,20,-10,14,10,56,3,22,Go Home I'm drinkin,2019,D,0,0,0,1,0,NA
+Josh Bailey,11,3,3,-2,0,0,12,2,6,Go Home I'm drinkin,2019,RW,0,0,1,0,0,NA
 Ryan O'Reilly,37,5,25,10,6,10,63,9,25,Hail Satan,2019,C,1,0,0,0,0,NA
 Connor McDavid,57,30,52,-8,28,38,184,28,16,Hail Satan,2019,C,1,0,0,0,0,NA
 William Nylander,66,29,29,-3,12,17,182,8,13,Hail Satan,2019,"C,RW",1,0,1,0,1,NA
@@ -689,61 +689,61 @@ Jakob Chychrun,1,0,0,0,2,0,6,0,0,Sugar Kane,2019,D,0,0,0,1,0,NA
 Ian Cole,3,0,0,-2,0,0,3,2,5,Sugar Kane,2019,D,0,0,0,1,0,NA
 David Savard,4,0,2,-1,6,1,9,6,14,Sugar Kane,2019,D,0,0,0,1,0,NA
 Dominik Kubalik,5,1,1,-1,2,0,7,6,1,Sugar Kane,2019,LW,0,1,0,0,0,NA
-Sidney Crosby,40,15,28,-9,15,15,106,28,17,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Artemi Panarin,69,32,63,36,20,24,209,25,18,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-Patrik Laine,45,16,26,9,12,9,145,68,24,The Bill Crosby’s,2019,"LW,RW",0,1,1,0,1,NA
-Torey Krug,58,9,35,-3,31,25,138,31,47,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-John Klingberg,17,1,3,-10,14,2,36,13,18,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Aaron Ekblad,40,5,18,11,18,3,94,17,54,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Sean Couturier,55,15,31,22,14,8,149,49,20,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Boone Jenner,4,0,0,-3,6,0,11,5,2,The Bill Crosby’s,2019,"C,LW",1,1,0,0,1,NA
-Alex DeBrincat,57,14,23,-7,8,12,165,51,18,The Bill Crosby’s,2019,"LW,RW",0,1,1,0,1,NA
-Kyle Palmieri,58,23,16,-8,39,18,135,67,31,The Bill Crosby’s,2019,RW,0,0,1,0,0,NA
-Erik Karlsson,56,6,34,-15,16,13,120,26,74,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Pierre-Luc Dubois,4,2,1,1,5,1,9,10,3,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Jeff Skinner,30,11,6,-4,14,3,102,10,4,The Bill Crosby’s,2019,"C,LW",1,1,0,0,1,NA
-Brayden Point,15,7,8,2,0,3,29,8,9,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Jonathan Toews,2,1,0,-2,0,0,5,2,1,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Jakob Silfverberg,8,2,3,-2,6,0,16,1,8,The Bill Crosby’s,2019,RW,0,0,1,0,0,NA
-Deryk Engelland,2,0,0,-3,2,0,1,7,5,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Shayne Gostisbehere,1,0,0,-1,2,0,2,1,0,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Hampus Lindholm,1,0,0,0,4,0,1,0,2,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Zdeno Chara,13,2,5,4,8,0,16,17,17,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Matt Niskanen,6,0,1,-4,2,1,11,16,6,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Jean-Gabriel Pageau,42,15,11,-11,38,10,88,88,31,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Brent Seabrook,1,0,1,0,0,0,1,3,1,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Calvin de Haan,2,0,0,0,0,0,0,7,6,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Jared McCann,3,1,1,0,4,0,6,4,0,The Bill Crosby’s,2019,"C,LW",1,1,0,0,1,NA
-Vladislav Namestnikov,1,0,0,0,0,0,1,0,0,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Alex Goligoski,30,2,12,-4,6,5,41,31,51,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Brendan Lemieux,5,0,1,-3,16,0,5,9,3,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-Brock Nelson,2,0,1,-1,0,0,5,2,1,The Bill Crosby’s,2019,"C,LW",1,1,0,0,1,NA
-Ben Chiarot,44,6,5,3,49,0,83,95,91,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Zack Kassian,25,6,6,-9,42,0,43,53,2,The Bill Crosby’s,2019,RW,0,0,1,0,0,NA
-Dustin Brown,4,0,1,0,2,1,10,13,0,The Bill Crosby’s,2019,"LW,RW",0,1,1,0,1,NA
-Alex Tuch,5,1,1,0,0,0,12,7,2,The Bill Crosby’s,2019,RW,0,0,1,0,0,NA
-Noel Acciari,2,0,0,-1,0,0,2,6,3,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Andre Burakovsky,3,0,0,-3,0,0,3,2,3,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-William Karlsson,7,0,1,1,0,0,17,2,5,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Ondrej Palat,4,1,1,0,0,0,6,10,6,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-Kevin Shattenkirk,18,1,4,6,8,0,27,18,16,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Phillip Danault,2,1,0,0,0,0,7,1,0,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Dominik Kubalik,8,5,1,0,4,0,22,2,0,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-Dylan Larkin,4,2,3,0,4,0,9,3,2,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-David Savard,1,0,0,0,0,0,4,1,4,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Dmitry Orlov,10,1,2,2,8,0,13,12,13,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Zach Hyman,15,5,4,1,9,1,35,14,9,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Rasmus Sandin,2,0,0,-1,0,0,2,0,2,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Chris Wagner,3,0,0,-1,2,0,5,8,2,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Ian Cole,2,0,1,3,0,0,5,2,3,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Damon Severson,15,1,8,-6,10,4,26,16,26,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Nick Suzuki,5,1,3,-6,0,3,12,1,1,The Bill Crosby’s,2019,C,1,0,0,0,0,NA
-Roman Polak,1,0,0,0,0,0,0,4,2,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Brady Skjei,1,0,0,-2,0,0,4,4,1,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Kevin Fiala,11,9,7,0,4,5,45,2,3,The Bill Crosby’s,2019,LW,0,1,0,0,0,NA
-Carl Gunnarsson,2,0,0,1,0,0,3,0,4,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
-Tyler Ennis,8,1,1,-3,4,0,16,17,4,The Bill Crosby’s,2019,"LW,RW",0,1,1,0,1,NA
-Adam Fox,2,1,3,3,2,0,1,1,2,The Bill Crosby’s,2019,D,0,0,0,1,0,NA
+Sidney Crosby,40,15,28,-9,15,15,106,28,17,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Artemi Panarin,69,32,63,36,20,24,209,25,18,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+Patrik Laine,45,16,26,9,12,9,145,68,24,The Bill Crosby's,2019,"LW,RW",0,1,1,0,1,NA
+Torey Krug,58,9,35,-3,31,25,138,31,47,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+John Klingberg,17,1,3,-10,14,2,36,13,18,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Aaron Ekblad,40,5,18,11,18,3,94,17,54,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Sean Couturier,55,15,31,22,14,8,149,49,20,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Boone Jenner,4,0,0,-3,6,0,11,5,2,The Bill Crosby's,2019,"C,LW",1,1,0,0,1,NA
+Alex DeBrincat,57,14,23,-7,8,12,165,51,18,The Bill Crosby's,2019,"LW,RW",0,1,1,0,1,NA
+Kyle Palmieri,58,23,16,-8,39,18,135,67,31,The Bill Crosby's,2019,RW,0,0,1,0,0,NA
+Erik Karlsson,56,6,34,-15,16,13,120,26,74,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Pierre-Luc Dubois,4,2,1,1,5,1,9,10,3,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Jeff Skinner,30,11,6,-4,14,3,102,10,4,The Bill Crosby's,2019,"C,LW",1,1,0,0,1,NA
+Brayden Point,15,7,8,2,0,3,29,8,9,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Jonathan Toews,2,1,0,-2,0,0,5,2,1,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Jakob Silfverberg,8,2,3,-2,6,0,16,1,8,The Bill Crosby's,2019,RW,0,0,1,0,0,NA
+Deryk Engelland,2,0,0,-3,2,0,1,7,5,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Shayne Gostisbehere,1,0,0,-1,2,0,2,1,0,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Hampus Lindholm,1,0,0,0,4,0,1,0,2,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Zdeno Chara,13,2,5,4,8,0,16,17,17,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Matt Niskanen,6,0,1,-4,2,1,11,16,6,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Jean-Gabriel Pageau,42,15,11,-11,38,10,88,88,31,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Brent Seabrook,1,0,1,0,0,0,1,3,1,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Calvin de Haan,2,0,0,0,0,0,0,7,6,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Jared McCann,3,1,1,0,4,0,6,4,0,The Bill Crosby's,2019,"C,LW",1,1,0,0,1,NA
+Vladislav Namestnikov,1,0,0,0,0,0,1,0,0,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Alex Goligoski,30,2,12,-4,6,5,41,31,51,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Brendan Lemieux,5,0,1,-3,16,0,5,9,3,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+Brock Nelson,2,0,1,-1,0,0,5,2,1,The Bill Crosby's,2019,"C,LW",1,1,0,0,1,NA
+Ben Chiarot,44,6,5,3,49,0,83,95,91,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Zack Kassian,25,6,6,-9,42,0,43,53,2,The Bill Crosby's,2019,RW,0,0,1,0,0,NA
+Dustin Brown,4,0,1,0,2,1,10,13,0,The Bill Crosby's,2019,"LW,RW",0,1,1,0,1,NA
+Alex Tuch,5,1,1,0,0,0,12,7,2,The Bill Crosby's,2019,RW,0,0,1,0,0,NA
+Noel Acciari,2,0,0,-1,0,0,2,6,3,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Andre Burakovsky,3,0,0,-3,0,0,3,2,3,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+William Karlsson,7,0,1,1,0,0,17,2,5,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Ondrej Palat,4,1,1,0,0,0,6,10,6,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+Kevin Shattenkirk,18,1,4,6,8,0,27,18,16,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Phillip Danault,2,1,0,0,0,0,7,1,0,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Dominik Kubalik,8,5,1,0,4,0,22,2,0,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+Dylan Larkin,4,2,3,0,4,0,9,3,2,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+David Savard,1,0,0,0,0,0,4,1,4,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Dmitry Orlov,10,1,2,2,8,0,13,12,13,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Zach Hyman,15,5,4,1,9,1,35,14,9,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Rasmus Sandin,2,0,0,-1,0,0,2,0,2,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Chris Wagner,3,0,0,-1,2,0,5,8,2,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Ian Cole,2,0,1,3,0,0,5,2,3,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Damon Severson,15,1,8,-6,10,4,26,16,26,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Nick Suzuki,5,1,3,-6,0,3,12,1,1,The Bill Crosby's,2019,C,1,0,0,0,0,NA
+Roman Polak,1,0,0,0,0,0,0,4,2,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Brady Skjei,1,0,0,-2,0,0,4,4,1,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Kevin Fiala,11,9,7,0,4,5,45,2,3,The Bill Crosby's,2019,LW,0,1,0,0,0,NA
+Carl Gunnarsson,2,0,0,1,0,0,3,0,4,The Bill Crosby's,2019,D,0,0,0,1,0,NA
+Tyler Ennis,8,1,1,-3,4,0,16,17,4,The Bill Crosby's,2019,"LW,RW",0,1,1,0,1,NA
+Adam Fox,2,1,3,3,2,0,1,1,2,The Bill Crosby's,2019,D,0,0,0,1,0,NA
 Alex Ovechkin,54,34,17,-11,20,16,236,145,25,The Glatt Pack,2019,LW,0,1,0,0,0,NA
 Vladimir Tarasenko,8,3,6,0,0,3,23,16,4,The Glatt Pack,2019,RW,0,0,1,0,0,NA
 Evgeni Malkin,28,13,20,-8,32,13,70,28,10,The Glatt Pack,2019,C,1,0,0,0,0,NA
@@ -2058,48 +2058,48 @@ William Karlsson,4,2,2,0,0,0,10,6,2,Mr. Andersson,2023,"C,LW",1,1,0,0,1,NA
 Evgeni Malkin,5,2,3,-1,4,2,16,3,4,Mr. Andersson,2023,C,1,0,0,0,0,NA
 Filip Hronek,4,0,0,0,2,0,4,8,7,Mr. Andersson,2023,D,0,0,0,1,0,NA
 Andrei Kuzmenko,3,1,2,2,0,1,7,0,1,Mr. Andersson,2023,"LW,RW",0,1,1,0,1,NA
-Jared McCann,15,5,2,-6,8,2,45,6,8,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
-Brandon Hage,29,6,16,-2,21,3,63,14,22,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
-Nikita Kuchero,76,43,89,3,20,52,298,37,34,Snortin Laine’s Bustin Hymans,2023,RW,0,0,1,0,0,NA
-Vince Dunn,49,8,31,2,52,14,102,27,52,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Kris Letang,67,8,32,6,60,4,138,99,109,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Andrei Kuzmenko,1,0,1,1,0,1,3,0,0,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
-Mika Zibanejad,3,0,4,2,2,1,8,1,1,Snortin Laine’s Bustin Hymans,2023,C,1,0,0,0,0,NA
-Vincent Trocheck,68,17,42,9,44,18,181,111,73,Snortin Laine’s Bustin Hymans,2023,C,1,0,0,0,0,NA
-Artemi Panarin,82,49,71,18,24,44,303,15,15,Snortin Laine’s Bustin Hymans,2023,LW,0,1,0,0,0,NA
-Sam Reinhart,74,51,34,24,29,31,204,55,56,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Matt Duchene,1,0,0,0,0,0,0,3,1,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Miro Heiskanen,69,8,43,5,36,20,154,54,96,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Owen Power,12,0,4,-3,2,0,20,3,21,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Evan Rodrigues,4,0,2,2,2,1,9,3,2,Snortin Laine’s Bustin Hymans,2023,CLWRW,1,1,1,0,1,NA
-Andrew Mangiapane,3,0,0,0,4,0,1,1,1,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
-Roope Hintz,60,24,22,15,18,12,134,25,30,Snortin Laine’s Bustin Hymans,2023,C,1,0,0,0,0,NA
-Tage Thompson,49,17,18,-5,25,11,163,51,22,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Noah Hanifin,4,0,0,-6,0,0,6,2,2,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Marcus Foligno,8,1,3,3,0,0,9,15,5,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
-Travis Sanheim,5,0,2,-9,4,0,10,4,3,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Mason McTavish,12,3,3,-12,14,2,31,3,6,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
-Troy Terry,1,0,1,1,0,0,5,0,0,Snortin Laine’s Bustin Hymans,2023,RW,0,0,1,0,0,NA
-Martin Pospisil,6,0,0,-2,2,0,8,15,2,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Ross Colton,11,2,2,-6,8,0,17,13,9,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
-Brandon Montour,65,8,26,0,46,17,167,87,67,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Blake Coleman,38,16,12,9,33,1,91,59,27,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Dakota Joshua,19,5,8,7,9,0,31,62,12,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
-Anders Lee,4,0,0,0,2,0,10,9,1,Snortin Laine’s Bustin Hymans,2023,LW,0,1,0,0,0,NA
-Luke Hughe,8,1,2,-4,0,1,9,1,4,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Jonathan Huberdeau,1,0,0,0,0,0,1,0,2,Snortin Laine’s Bustin Hymans,2023,CLW,1,1,0,0,1,NA
-Morgan Geekie,8,2,1,-1,4,1,7,17,6,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Jake Sanderson,2,0,0,-3,0,0,2,0,5,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Samuel Girard,1,0,0,1,0,0,1,1,0,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Juraj Slafkovsky,4,1,2,-2,6,1,11,3,7,Snortin Laine’s Bustin Hymans,2023,LW,0,1,0,0,0,NA
-Thomas Chabot,19,5,5,-5,8,0,39,14,29,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Mason Marchment,6,0,0,-3,0,0,5,8,4,Snortin Laine’s Bustin Hymans,2023,LW,0,1,0,0,0,NA
-Sam Bennett,18,5,5,2,23,2,43,51,13,Snortin Laine’s Bustin Hymans,2023,C,1,0,0,0,0,NA
-Erik Cerna,1,0,0,2,7,0,0,4,1,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Vladimir Tarasenko,5,2,1,-3,0,0,7,8,3,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
-Logan Stankoven,2,0,0,-1,2,0,3,0,0,Snortin Laine’s Bustin Hymans,2023,CRW,1,0,1,0,1,NA
-Arber Xhekaj,11,0,2,3,14,0,17,34,15,Snortin Laine’s Bustin Hymans,2023,D,0,0,0,1,0,NA
-Jake DeBrusk,13,2,2,-9,2,1,26,21,4,Snortin Laine’s Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Jared McCann,15,5,2,-6,8,2,45,6,8,Snortin Laine's Bustin Hymans,2023,CLW,1,1,0,0,1,NA
+Brandon Hage,29,6,16,-2,21,3,63,14,22,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Nikita Kuchero,76,43,89,3,20,52,298,37,34,Snortin Laine's Bustin Hymans,2023,RW,0,0,1,0,0,NA
+Vince Dunn,49,8,31,2,52,14,102,27,52,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Kris Letang,67,8,32,6,60,4,138,99,109,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Andrei Kuzmenko,1,0,1,1,0,1,3,0,0,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Mika Zibanejad,3,0,4,2,2,1,8,1,1,Snortin Laine's Bustin Hymans,2023,C,1,0,0,0,0,NA
+Vincent Trocheck,68,17,42,9,44,18,181,111,73,Snortin Laine's Bustin Hymans,2023,C,1,0,0,0,0,NA
+Artemi Panarin,82,49,71,18,24,44,303,15,15,Snortin Laine's Bustin Hymans,2023,LW,0,1,0,0,0,NA
+Sam Reinhart,74,51,34,24,29,31,204,55,56,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Matt Duchene,1,0,0,0,0,0,0,3,1,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Miro Heiskanen,69,8,43,5,36,20,154,54,96,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Owen Power,12,0,4,-3,2,0,20,3,21,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Evan Rodrigues,4,0,2,2,2,1,9,3,2,Snortin Laine's Bustin Hymans,2023,CLWRW,1,1,1,0,1,NA
+Andrew Mangiapane,3,0,0,0,4,0,1,1,1,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Roope Hintz,60,24,22,15,18,12,134,25,30,Snortin Laine's Bustin Hymans,2023,C,1,0,0,0,0,NA
+Tage Thompson,49,17,18,-5,25,11,163,51,22,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Noah Hanifin,4,0,0,-6,0,0,6,2,2,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Marcus Foligno,8,1,3,3,0,0,9,15,5,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Travis Sanheim,5,0,2,-9,4,0,10,4,3,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Mason McTavish,12,3,3,-12,14,2,31,3,6,Snortin Laine's Bustin Hymans,2023,CLW,1,1,0,0,1,NA
+Troy Terry,1,0,1,1,0,0,5,0,0,Snortin Laine's Bustin Hymans,2023,RW,0,0,1,0,0,NA
+Martin Pospisil,6,0,0,-2,2,0,8,15,2,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Ross Colton,11,2,2,-6,8,0,17,13,9,Snortin Laine's Bustin Hymans,2023,CLW,1,1,0,0,1,NA
+Brandon Montour,65,8,26,0,46,17,167,87,67,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Blake Coleman,38,16,12,9,33,1,91,59,27,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Dakota Joshua,19,5,8,7,9,0,31,62,12,Snortin Laine's Bustin Hymans,2023,CLW,1,1,0,0,1,NA
+Anders Lee,4,0,0,0,2,0,10,9,1,Snortin Laine's Bustin Hymans,2023,LW,0,1,0,0,0,NA
+Luke Hughe,8,1,2,-4,0,1,9,1,4,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Jonathan Huberdeau,1,0,0,0,0,0,1,0,2,Snortin Laine's Bustin Hymans,2023,CLW,1,1,0,0,1,NA
+Morgan Geekie,8,2,1,-1,4,1,7,17,6,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Jake Sanderson,2,0,0,-3,0,0,2,0,5,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Samuel Girard,1,0,0,1,0,0,1,1,0,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Juraj Slafkovsky,4,1,2,-2,6,1,11,3,7,Snortin Laine's Bustin Hymans,2023,LW,0,1,0,0,0,NA
+Thomas Chabot,19,5,5,-5,8,0,39,14,29,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Mason Marchment,6,0,0,-3,0,0,5,8,4,Snortin Laine's Bustin Hymans,2023,LW,0,1,0,0,0,NA
+Sam Bennett,18,5,5,2,23,2,43,51,13,Snortin Laine's Bustin Hymans,2023,C,1,0,0,0,0,NA
+Erik Cerna,1,0,0,2,7,0,0,4,1,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Vladimir Tarasenko,5,2,1,-3,0,0,7,8,3,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
+Logan Stankoven,2,0,0,-1,2,0,3,0,0,Snortin Laine's Bustin Hymans,2023,CRW,1,0,1,0,1,NA
+Arber Xhekaj,11,0,2,3,14,0,17,34,15,Snortin Laine's Bustin Hymans,2023,D,0,0,0,1,0,NA
+Jake DeBrusk,13,2,2,-9,2,1,26,21,4,Snortin Laine's Bustin Hymans,2023,LWRW,0,1,1,0,1,NA
 Sidney Crosby,68,34,42,2,36,20,234,72,32,Sugar Kane,2023,C,1,0,0,0,0,NA
 Reilly Smith,5,1,1,0,0,0,13,4,1,Sugar Kane,2023,LWRW,0,1,1,0,1,NA
 Jake Guentzel,63,28,41,19,16,19,225,37,26,Sugar Kane,2023,LW,0,1,0,0,0,NA

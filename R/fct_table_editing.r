@@ -47,7 +47,7 @@ create_clean_log_table_2023 <- function(table_in, file_name) {
                 stringr::str_length(Position) >= 3 ~ 1,
                 TRUE ~ 0
             ),
-            manager = stringr::str_split_1(file_name, "_")[1],
+            Team = stringr::str_split_1(file_name, "_")[1],
             year = get_year_from_file(file_name),
             Name = stringr::str_sub(Name, 1, stringr::str_length(Name) - 3)
         )
@@ -85,7 +85,7 @@ create_clean_log_mr_andersson <- function(tbl, file_name) {
                 stringr::str_length(Position) >= 3 ~ 1,
                 TRUE ~ 0
             ),
-            manager = stringr::str_split_1(file_name, "_")[1],
+            Team = stringr::str_split_1(file_name, "_")[1],
             year = get_year_from_file(file_name)
         )
     return(table_out)
@@ -150,7 +150,7 @@ create_clean_log_table_pre2023 <- function(table_in, file_name) {
         ) %>%
         tidyr::drop_na(Name) %>%
         dplyr::mutate(
-            manager = stringr::str_split_1(file_name, "_")[1],
+            Team = stringr::str_split_1(file_name, "_")[1],
             year = get_year_from_file(file_name)
         )
     return(table_out)
@@ -196,7 +196,7 @@ create_goalie_table <- function(table_in) {
         ) %>%
         dplyr::arrange(
             year,
-            manager
+            Team
         )
     return(goalies_table)
 }
@@ -207,7 +207,7 @@ create_forwards_table <- function(table_in) {
         dplyr::filter(
             Position != "G"
         ) %>%
-        dplyr::arrange(year, manager)
+        dplyr::arrange(year, Team)
     return(forward_table)
 }
 
@@ -222,10 +222,8 @@ create_list_of_clean_logs <- function(file, folder) {
             !(stringr::str_detect(file_path, "Andersson"))
         )
     ) {
-        print("2023")
         clean_log <- create_clean_log_table_2023(tbl_in, file)
     } else if (stringr::str_detect(file_path, "Mr. Andersson_2023")) {
-        print("MR. ANDERSSON")
         clean_log <- create_clean_log_mr_andersson(tbl_in, file)
     } else {
         print("Pre 2023")

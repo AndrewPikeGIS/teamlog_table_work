@@ -1,4 +1,4 @@
-Name,gp,wins,GA,GAA,saves,shots_against,sv_percent,shutout,manager,year,Position
+Name,gp,wins,GA,GAA,saves,shots_against,sv_percent,shutout,Team,year,Position
 Andrei Vasilevskiy,38,28,84,2.19,1145,1229,0.9316517493897477,6,Collin's Cool Team,2018,G
 Philipp Grubauer,30,15,68,2.52,792,860,0.9209302325581395,3,Collin's Cool Team,2018,G
 Cory Schneider,7,0,25,5.01,135,160,0.84375,0,Collin's Cool Team,2018,G
@@ -89,10 +89,10 @@ Sergei Bobrovsky,25,14,67,2.75,758,825,0.9187878787878788,0,Dump in the Corner,2
 Pavel Francouz,1,1,1,1,37,38,0.9736842105263158,0,Dump in the Corner,2019,G
 Elvis Merzlikins,13,5,28,2.25,344,372,0.9247311827956989,3,Dump in the Corner,2019,G
 Anton Khudobin,2,0,4,2.04,55,59,0.9322033898305084,0,Dump in the Corner,2019,G
-Braden Holtby,48,25,142,3.11,1243,1385,0.8974729241877256,0,Go Home I’m drinkin,2019,G
-Robin Lehner,32,16,86,2.8,1030,1116,0.9229390681003584,1,Go Home I’m drinkin,2019,G
-Joonas Korpisalo,11,6,20,1.84,290,310,0.9354838709677419,1,Go Home I’m drinkin,2019,G
-Mikko Koskinen,8,3,20,2.72,250,270,0.9259259259259259,0,Go Home I’m drinkin,2019,G
+Braden Holtby,48,25,142,3.11,1243,1385,0.8974729241877256,0,Go Home I'm drinkin,2019,G
+Robin Lehner,32,16,86,2.8,1030,1116,0.9229390681003584,1,Go Home I'm drinkin,2019,G
+Joonas Korpisalo,11,6,20,1.84,290,310,0.9354838709677419,1,Go Home I'm drinkin,2019,G
+Mikko Koskinen,8,3,20,2.72,250,270,0.9259259259259259,0,Go Home I'm drinkin,2019,G
 Tuukka Rask,40,26,81,2.07,1084,1165,0.9304721030042918,5,Hail Satan,2019,G
 Cory Schneider,4,0,15,4.08,106,121,0.8760330578512396,0,Hail Satan,2019,G
 Devan Dubnyk,13,5,37,3.07,332,369,0.8997289972899729,0,Hail Satan,2019,G
@@ -133,18 +133,18 @@ Igor Shesterkin,3,3,6,2.01,94,100,0.94,0,Sugar Kane,2019,G
 Mike Smith,5,3,15,3.28,121,136,0.8897058823529411,0,Sugar Kane,2019,G
 Alexandar Georgiev,2,1,7,3.52,48,55,0.8727272727272727,0,Sugar Kane,2019,G
 Cam Talbot,1,1,2,2.01,32,34,0.9411764705882353,0,Sugar Kane,2019,G
-Henrik Lundqvist,1,1,4,4,43,47,0.9148936170212766,0,The Bill Crosby’s,2019,G
-Joonas Korpisalo,9,5,29,3.42,217,246,0.8821138211382114,0,The Bill Crosby’s,2019,G
-Darcy Kuemper,26,16,60,2.28,762,822,0.927007299270073,2,The Bill Crosby’s,2019,G
-Mike Smith,7,3,22,3.47,188,210,0.8952380952380953,0,The Bill Crosby’s,2019,G
-Anton Khudobin,1,0,5,5,25,30,0.8333333333333334,0,The Bill Crosby’s,2019,G
-Alexandar Georgiev,2,1,6,3.03,34,40,0.85,0,The Bill Crosby’s,2019,G
-Pavel Francouz,10,6,29,2.88,287,316,0.9082278481012658,1,The Bill Crosby’s,2019,G
-Antti Raanta,7,3,19,3.57,151,170,0.888235294117647,0,The Bill Crosby’s,2019,G
-Mackenzie Blackwood,15,9,38,2.55,480,518,0.9266409266409267,2,The Bill Crosby’s,2019,G
-Ilya Samsonov,1,1,0,0,23,23,1,1,The Bill Crosby’s,2019,G
-Chris Driedger,1,0,0,0,4,4,1,0,The Bill Crosby’s,2019,G
-Jaroslav Halak,7,7,12,1.7,179,191,0.93717277486911,0,The Bill Crosby’s,2019,G
+Henrik Lundqvist,1,1,4,4,43,47,0.9148936170212766,0,The Bill Crosby's,2019,G
+Joonas Korpisalo,9,5,29,3.42,217,246,0.8821138211382114,0,The Bill Crosby's,2019,G
+Darcy Kuemper,26,16,60,2.28,762,822,0.927007299270073,2,The Bill Crosby's,2019,G
+Mike Smith,7,3,22,3.47,188,210,0.8952380952380953,0,The Bill Crosby's,2019,G
+Anton Khudobin,1,0,5,5,25,30,0.8333333333333334,0,The Bill Crosby's,2019,G
+Alexandar Georgiev,2,1,6,3.03,34,40,0.85,0,The Bill Crosby's,2019,G
+Pavel Francouz,10,6,29,2.88,287,316,0.9082278481012658,1,The Bill Crosby's,2019,G
+Antti Raanta,7,3,19,3.57,151,170,0.888235294117647,0,The Bill Crosby's,2019,G
+Mackenzie Blackwood,15,9,38,2.55,480,518,0.9266409266409267,2,The Bill Crosby's,2019,G
+Ilya Samsonov,1,1,0,0,23,23,1,1,The Bill Crosby's,2019,G
+Chris Driedger,1,0,0,0,4,4,1,0,The Bill Crosby's,2019,G
+Jaroslav Halak,7,7,12,1.7,179,191,0.93717277486911,0,The Bill Crosby's,2019,G
 Ben Bishop,38,17,89,2.48,1017,1106,0.9195298372513563,2,The Glatt Pack,2019,G
 John Gibson,41,16,121,3.05,1114,1235,0.9020242914979757,0,The Glatt Pack,2019,G
 Semyon Varlamov,43,18,104,2.61,1110,1214,0.914332784184514,2,The Glatt Pack,2019,G
@@ -423,14 +423,14 @@ Scott Wedgewood,1,0,4,4.45,14,18,0.7777777777777778,0,Mr. Andersson,2023,G
 Antti Raanta,1,0,3,3.08,14,17,0.8235294117647058,0,Mr. Andersson,2023,G
 Charlie Lindgren,1,0,6,6.02,25,31,0.8064516129032258,0,Mr. Andersson,2023,G
 Ilya Samsonov,21,15,62,2.94,549,611,0.8985270049099836,1,Mr. Andersson,2023,G
-Alexandar Georgiev,59,37,172,3,1501,1673,0.8971906754333533,2,Snortin Laine’s Bustin Hymans,2023,G
-Igor Shesterkin,45,31,111,2.48,1204,1315,0.9155893536121673,4,Snortin Laine’s Bustin Hymans,2023,G
-Jonathan Quick,4,3,15,3.63,109,124,0.8790322580645161,0,Snortin Laine’s Bustin Hymans,2023,G
-Dustin Wolf,3,1,10,3.35,88,98,0.8979591836734694,0,Snortin Laine’s Bustin Hymans,2023,G
-Devon Levi,2,1,7,3.56,50,57,0.8771929824561403,0,Snortin Laine’s Bustin Hymans,2023,G
-Joey Daccord,15,6,38,2.65,413,451,0.9157427937915743,1,Snortin Laine’s Bustin Hymans,2023,G
-Alex Lyon,3,0,13,4.91,90,103,0.8737864077669902,0,Snortin Laine’s Bustin Hymans,2023,G
-Ukko-Pekka Luukkonen,12,7,34,2.84,327,361,0.9058171745152355,0,Snortin Laine’s Bustin Hymans,2023,G
+Alexandar Georgiev,59,37,172,3,1501,1673,0.8971906754333533,2,Snortin Laine's Bustin Hymans,2023,G
+Igor Shesterkin,45,31,111,2.48,1204,1315,0.9155893536121673,4,Snortin Laine's Bustin Hymans,2023,G
+Jonathan Quick,4,3,15,3.63,109,124,0.8790322580645161,0,Snortin Laine's Bustin Hymans,2023,G
+Dustin Wolf,3,1,10,3.35,88,98,0.8979591836734694,0,Snortin Laine's Bustin Hymans,2023,G
+Devon Levi,2,1,7,3.56,50,57,0.8771929824561403,0,Snortin Laine's Bustin Hymans,2023,G
+Joey Daccord,15,6,38,2.65,413,451,0.9157427937915743,1,Snortin Laine's Bustin Hymans,2023,G
+Alex Lyon,3,0,13,4.91,90,103,0.8737864077669902,0,Snortin Laine's Bustin Hymans,2023,G
+Ukko-Pekka Luukkonen,12,7,34,2.84,327,361,0.9058171745152355,0,Snortin Laine's Bustin Hymans,2023,G
 Linus Ullmark,37,20,89,2.48,995,1084,0.9178966789667896,2,Sugar Kane,2023,G
 Ilya Sorokin,54,25,161,3.02,1585,1746,0.9077892325315006,1,Sugar Kane,2023,G
 Sam Montembeault,1,1,2,2,28,30,0.9333333333333333,0,Sugar Kane,2023,G
